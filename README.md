@@ -1,4 +1,4 @@
-**#tracks**
+**Tracks**
 # React Native Full Stack App
 
 This is a full-stack mobile application built with React Native (frontend) and Express/Python (backend).
