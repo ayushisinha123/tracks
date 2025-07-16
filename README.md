@@ -1,7 +1,40 @@
 **Tracks**
 # React Native Full Stack App
 
-This is a full-stack mobile application built with React Native (frontend) and Express/Python (backend).
+# 🏃‍♂️ Activity Tracker App
+
+A full-stack mobile application built with **React Native** (frontend) and **Express** (backend), designed to help users **track and monitor their physical activities** in real-time.
+
+## 📱 Features
+
+### 🔐 Authentication
+- **Sign Up**: Create a new account.
+- **Sign Out**: Easily log out from the account screen.
+
+### 🗺️ Track Creation
+Users can record their physical activities by following these steps:
+1. **Enter a name** for your track.
+2. Tap the **Start** button to begin tracking your movement.
+3. After completing your activity, tap the **Stop** button.
+4. Save the track — it will now appear in your **Track List**.
+
+### 📂 Track List & Details
+- View a list of all saved tracks.
+- Tap on any track to view detailed information about that specific activity.
+
+### 📍 Location Access
+- The app requires **location permission** to function properly.
+- Location data is used to record and display the user's movement during an activity.
+
+## 🛠️ Development Note
+
+During development, **mock location data** is used to simulate movement for testing purposes.
+
+To enable real GPS tracking, **comment out** the following line in `src/screens/TrackCreateScreen`:
+
+```js
+import '../_mockLocation';
+
 
 ## 🔧 Project Structure
 ├── frontend/ # React Native code
