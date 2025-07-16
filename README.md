@@ -32,7 +32,6 @@ During development, **mock location data** is used to simulate movement for test
 
 To enable real GPS tracking, **comment out** the following line in `src/screens/TrackCreateScreen`:
 
-```js
 import '../_mockLocation';
 
 
